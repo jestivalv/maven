@@ -1,0 +1,318 @@
+Sun Nov 12 16:56:04 UTC 2017
+/usr/bin/curl  "-I -k https://hub.docker.com -s -o /dev/null --write-out %{http_code}"
+Checking registry for version '5.20.0' images
+eval BOOTSTRAP_IMAGE_ALPINE=${BOOTSTRAP_IMAGE_ALPINE:-alpine:3.4}
+eval BOOTSTRAP_IMAGE_CHEIP=${BOOTSTRAP_IMAGE_CHEIP:-eclipse/che-ip:5.20.0}
+eval IMAGE_INIT=${IMAGE_INIT:-eclipse/che-init:5.20.0}
+eval IMAGE_CHE=${IMAGE_CHE:-eclipse/che-server:5.20.0}
+eval IMAGE_COMPOSE=${IMAGE_COMPOSE:-docker/compose:1.10.1}
+eval UTILITY_IMAGE_CHEACTION=${UTILITY_IMAGE_CHEACTION:-eclipse/che-action:5.20.0}
+eval UTILITY_IMAGE_CHEDIR=${UTILITY_IMAGE_CHEDIR:-eclipse/che-dir:5.20.0}
+eval UTILITY_IMAGE_CHETEST=${UTILITY_IMAGE_CHETEST:-eclipse/che-test:5.20.0}
+eval UTILITY_IMAGE_CHEMOUNT=${UTILITY_IMAGE_CHEMOUNT:-eclipse/che-mount:5.20.0}
+INFO: (che cli):  5.20.0 - using docker 17.09.0-ce / docker4windows
+/usr/bin/curl  "-s https://hub.docker.com/v2/repositories/eclipse/che/tags/"
+INFO:  Newer version '6.0.0-M1' available
+docker inspect -f '{{.Id}}' che
+/usr/bin/curl  "-I -k 10.0.75.2:8080/api/ -s -o /dev/null --write-out %{http_code}"
+200
+INFO: (che start):  Booted and reachable
+INFO: (che start):  Ver: <not-configed>
+INFO: (che start):  Use: http://localhost:8080
+INFO: (che start):  API: http://localhost:8080/swagger
+docker inspect -f '{{.Id}}' che
+/usr/bin/curl  "-I -k 10.0.75.2:8080/api/ -s -o /dev/null --write-out %{http_code}"
+200
+Sun Nov 12 17:11:17 UTC 2017
+/usr/bin/curl  "-I -k https://hub.docker.com -s -o /dev/null --write-out %{http_code}"
+Checking registry for version '5.20.0' images
+eval BOOTSTRAP_IMAGE_ALPINE=${BOOTSTRAP_IMAGE_ALPINE:-alpine:3.4}
+eval BOOTSTRAP_IMAGE_CHEIP=${BOOTSTRAP_IMAGE_CHEIP:-eclipse/che-ip:5.20.0}
+eval IMAGE_INIT=${IMAGE_INIT:-eclipse/che-init:5.20.0}
+eval IMAGE_CHE=${IMAGE_CHE:-eclipse/che-server:5.20.0}
+eval IMAGE_COMPOSE=${IMAGE_COMPOSE:-docker/compose:1.10.1}
+eval UTILITY_IMAGE_CHEACTION=${UTILITY_IMAGE_CHEACTION:-eclipse/che-action:5.20.0}
+eval UTILITY_IMAGE_CHEDIR=${UTILITY_IMAGE_CHEDIR:-eclipse/che-dir:5.20.0}
+eval UTILITY_IMAGE_CHETEST=${UTILITY_IMAGE_CHETEST:-eclipse/che-test:5.20.0}
+eval UTILITY_IMAGE_CHEMOUNT=${UTILITY_IMAGE_CHEMOUNT:-eclipse/che-mount:5.20.0}
+INFO: (che cli):  5.20.0 - using docker 17.09.0-ce / docker4windows
+/usr/bin/curl  "-s https://hub.docker.com/v2/repositories/eclipse/che/tags/"
+INFO:  Newer version '6.0.0-M1' available
+docker inspect -f '{{.Id}}' che
+/usr/bin/curl  "-I -k 10.0.75.2:8080/api/ -s -o /dev/null --write-out %{http_code}"
+200
+INFO: (che start):  Booted and reachable
+INFO: (che start):  Ver: <not-configed>
+INFO: (che start):  Use: http://localhost:8080
+INFO: (che start):  API: http://localhost:8080/swagger
+docker inspect -f '{{.Id}}' che
+/usr/bin/curl  "-I -k 10.0.75.2:8080/api/ -s -o /dev/null --write-out %{http_code}"
+200
+Sun Nov 12 17:13:57 UTC 2017
+/usr/bin/curl  "-I -k https://hub.docker.com -s -o /dev/null --write-out %{http_code}"
+Checking registry for version '5.20.0' images
+eval BOOTSTRAP_IMAGE_ALPINE=${BOOTSTRAP_IMAGE_ALPINE:-alpine:3.4}
+eval BOOTSTRAP_IMAGE_CHEIP=${BOOTSTRAP_IMAGE_CHEIP:-eclipse/che-ip:5.20.0}
+eval IMAGE_INIT=${IMAGE_INIT:-eclipse/che-init:5.20.0}
+eval IMAGE_CHE=${IMAGE_CHE:-eclipse/che-server:5.20.0}
+eval IMAGE_COMPOSE=${IMAGE_COMPOSE:-docker/compose:1.10.1}
+eval UTILITY_IMAGE_CHEACTION=${UTILITY_IMAGE_CHEACTION:-eclipse/che-action:5.20.0}
+eval UTILITY_IMAGE_CHEDIR=${UTILITY_IMAGE_CHEDIR:-eclipse/che-dir:5.20.0}
+eval UTILITY_IMAGE_CHETEST=${UTILITY_IMAGE_CHETEST:-eclipse/che-test:5.20.0}
+eval UTILITY_IMAGE_CHEMOUNT=${UTILITY_IMAGE_CHEMOUNT:-eclipse/che-mount:5.20.0}
+INFO: (che cli):  5.20.0 - using docker 17.09.0-ce / docker4windows
+/usr/bin/curl  "-s https://hub.docker.com/v2/repositories/eclipse/che/tags/"
+INFO:  Newer version '6.0.0-M1' available
+docker inspect -f '{{.Id}}' che
+/usr/bin/curl  "-I -k 10.0.75.2:8080/api/ -s -o /dev/null --write-out %{http_code}"
+200
+INFO: (che start):  Booted and reachable
+INFO: (che start):  Ver: <not-configed>
+INFO: (che start):  Use: http://localhost:8080
+INFO: (che start):  API: http://localhost:8080/swagger
+docker inspect -f '{{.Id}}' che
+/usr/bin/curl  "-I -k 10.0.75.2:8080/api/ -s -o /dev/null --write-out %{http_code}"
+200
+Sun Nov 12 17:15:54 UTC 2017
+/usr/bin/curl  "-I -k https://hub.docker.com -s -o /dev/null --write-out %{http_code}"
+Checking registry for version '5.20.0' images
+eval BOOTSTRAP_IMAGE_ALPINE=${BOOTSTRAP_IMAGE_ALPINE:-alpine:3.4}
+eval BOOTSTRAP_IMAGE_CHEIP=${BOOTSTRAP_IMAGE_CHEIP:-eclipse/che-ip:5.20.0}
+eval IMAGE_INIT=${IMAGE_INIT:-eclipse/che-init:5.20.0}
+eval IMAGE_CHE=${IMAGE_CHE:-eclipse/che-server:5.20.0}
+eval IMAGE_COMPOSE=${IMAGE_COMPOSE:-docker/compose:1.10.1}
+eval UTILITY_IMAGE_CHEACTION=${UTILITY_IMAGE_CHEACTION:-eclipse/che-action:5.20.0}
+eval UTILITY_IMAGE_CHEDIR=${UTILITY_IMAGE_CHEDIR:-eclipse/che-dir:5.20.0}
+eval UTILITY_IMAGE_CHETEST=${UTILITY_IMAGE_CHETEST:-eclipse/che-test:5.20.0}
+eval UTILITY_IMAGE_CHEMOUNT=${UTILITY_IMAGE_CHEMOUNT:-eclipse/che-mount:5.20.0}
+INFO: (che cli):  5.20.0 - using docker 17.09.0-ce / docker4windows
+/usr/bin/curl  "-s https://hub.docker.com/v2/repositories/eclipse/che/tags/"
+INFO:  Newer version '6.0.0-M1' available
+docker inspect -f '{{.Id}}' che
+/usr/bin/curl  "-I -k 10.0.75.2:8080/api/ -s -o /dev/null --write-out %{http_code}"
+200
+INFO: (che start):  Booted and reachable
+INFO: (che start):  Ver: <not-configed>
+INFO: (che start):  Use: http://localhost:8080
+INFO: (che start):  API: http://localhost:8080/swagger
+docker inspect -f '{{.Id}}' che
+/usr/bin/curl  "-I -k 10.0.75.2:8080/api/ -s -o /dev/null --write-out %{http_code}"
+200
+Sun Nov 12 17:21:23 UTC 2017
+/usr/bin/curl  "-I -k https://hub.docker.com -s -o /dev/null --write-out %{http_code}"
+Checking registry for version '5.20.0' images
+eval BOOTSTRAP_IMAGE_ALPINE=${BOOTSTRAP_IMAGE_ALPINE:-alpine:3.4}
+eval BOOTSTRAP_IMAGE_CHEIP=${BOOTSTRAP_IMAGE_CHEIP:-eclipse/che-ip:5.20.0}
+eval IMAGE_INIT=${IMAGE_INIT:-eclipse/che-init:5.20.0}
+eval IMAGE_CHE=${IMAGE_CHE:-eclipse/che-server:5.20.0}
+eval IMAGE_COMPOSE=${IMAGE_COMPOSE:-docker/compose:1.10.1}
+eval UTILITY_IMAGE_CHEACTION=${UTILITY_IMAGE_CHEACTION:-eclipse/che-action:5.20.0}
+eval UTILITY_IMAGE_CHEDIR=${UTILITY_IMAGE_CHEDIR:-eclipse/che-dir:5.20.0}
+eval UTILITY_IMAGE_CHETEST=${UTILITY_IMAGE_CHETEST:-eclipse/che-test:5.20.0}
+eval UTILITY_IMAGE_CHEMOUNT=${UTILITY_IMAGE_CHEMOUNT:-eclipse/che-mount:5.20.0}
+INFO: (che cli):  5.20.0 - using docker 17.09.0-ce / docker4windows
+/usr/bin/curl  "-s https://hub.docker.com/v2/repositories/eclipse/che/tags/"
+INFO:  Newer version '6.0.0-M1' available
+ERROR: You passed an unknown command: -v
+Sun Nov 12 17:36:20 UTC 2017
+/usr/bin/curl  "-I -k https://hub.docker.com -s -o /dev/null --write-out %{http_code}"
+Checking registry for version '5.20.0' images
+eval BOOTSTRAP_IMAGE_ALPINE=${BOOTSTRAP_IMAGE_ALPINE:-alpine:3.4}
+eval BOOTSTRAP_IMAGE_CHEIP=${BOOTSTRAP_IMAGE_CHEIP:-eclipse/che-ip:5.20.0}
+eval IMAGE_INIT=${IMAGE_INIT:-eclipse/che-init:5.20.0}
+eval IMAGE_CHE=${IMAGE_CHE:-eclipse/che-server:5.20.0}
+eval IMAGE_COMPOSE=${IMAGE_COMPOSE:-docker/compose:1.10.1}
+eval UTILITY_IMAGE_CHEACTION=${UTILITY_IMAGE_CHEACTION:-eclipse/che-action:5.20.0}
+eval UTILITY_IMAGE_CHEDIR=${UTILITY_IMAGE_CHEDIR:-eclipse/che-dir:5.20.0}
+eval UTILITY_IMAGE_CHETEST=${UTILITY_IMAGE_CHETEST:-eclipse/che-test:5.20.0}
+eval UTILITY_IMAGE_CHEMOUNT=${UTILITY_IMAGE_CHEMOUNT:-eclipse/che-mount:5.20.0}
+INFO: (che cli):  5.20.0 - using docker 17.09.0-ce / docker4windows
+/usr/bin/curl  "-s https://hub.docker.com/v2/repositories/eclipse/che/tags/"
+INFO:  Newer version '6.0.0-M1' available
+docker inspect -f '{{.Id}}' che
+/usr/bin/curl  "-I -k 10.0.75.2:8080/api/ -s -o /dev/null --write-out %{http_code}"
+200
+INFO: (che start):  Booted and reachable
+INFO: (che start):  Ver: <not-configed>
+INFO: (che start):  Use: http://localhost:8080
+INFO: (che start):  API: http://localhost:8080/swagger
+docker inspect -f '{{.Id}}' che
+/usr/bin/curl  "-I -k 10.0.75.2:8080/api/ -s -o /dev/null --write-out %{http_code}"
+200
+Sun Nov 12 17:54:06 UTC 2017
+/usr/bin/curl  "-I -k https://hub.docker.com -s -o /dev/null --write-out %{http_code}"
+Checking registry for version '5.20.0' images
+eval BOOTSTRAP_IMAGE_ALPINE=${BOOTSTRAP_IMAGE_ALPINE:-alpine:3.4}
+eval BOOTSTRAP_IMAGE_CHEIP=${BOOTSTRAP_IMAGE_CHEIP:-eclipse/che-ip:5.20.0}
+eval IMAGE_INIT=${IMAGE_INIT:-eclipse/che-init:5.20.0}
+eval IMAGE_CHE=${IMAGE_CHE:-eclipse/che-server:5.20.0}
+eval IMAGE_COMPOSE=${IMAGE_COMPOSE:-docker/compose:1.10.1}
+eval UTILITY_IMAGE_CHEACTION=${UTILITY_IMAGE_CHEACTION:-eclipse/che-action:5.20.0}
+eval UTILITY_IMAGE_CHEDIR=${UTILITY_IMAGE_CHEDIR:-eclipse/che-dir:5.20.0}
+eval UTILITY_IMAGE_CHETEST=${UTILITY_IMAGE_CHETEST:-eclipse/che-test:5.20.0}
+eval UTILITY_IMAGE_CHEMOUNT=${UTILITY_IMAGE_CHEMOUNT:-eclipse/che-mount:5.20.0}
+INFO: (che cli):  5.20.0 - using docker 17.09.0-ce / docker4windows
+/usr/bin/curl  "-s https://hub.docker.com/v2/repositories/eclipse/che/tags/"
+INFO:  Newer version '6.0.0-M1' available
+docker inspect -f '{{.Id}}' che
+/usr/bin/curl  "-I -k 10.0.75.2:8080/api/ -s -o /dev/null --write-out %{http_code}"
+000
+docker inspect -f '{{.Id}}' che
+/usr/bin/curl  "-I -k 10.0.75.2:8080/api/ -s -o /dev/null --write-out %{http_code}"
+000
+\033[0;32mINFO:\033[0m (che download): Checking for image 'eclipse/che-init:5.20.0'... found
+\033[0;32mINFO:\033[0m (che download): Checking for image 'eclipse/che-server:5.20.0'... found
+\033[0;32mINFO:\033[0m (che download): Checking for image 'docker/compose:1.10.1'... found
+\033[0;32mINFO:\033[0m (che download): Checking for image 'alpine:3.4'... found
+\033[0;32mINFO:\033[0m (che download): Checking for image 'eclipse/che-ip:5.20.0'... found
+\033[0;32mINFO:\033[0m (che download): Checking for image 'eclipse/che-action:5.20.0'... found
+\033[0;32mINFO:\033[0m (che download): Checking for image 'eclipse/che-dir:5.20.0'... found
+\033[0;32mINFO:\033[0m (che download): Checking for image 'eclipse/che-test:5.20.0'... found
+\033[0;32mINFO:\033[0m (che download): Checking for image 'eclipse/che-mount:5.20.0'... found
+INFO: (che init):  Installing configuration and bootstrap variables:
+mkdir -p "/data"
+mkdir -p "/data/instance"
+docker_run -v "/c/Users/estival/Github/maven":/copy  eclipse/che-init:5.20.0
+INFO: (che init):    CHE_HOST=10.0.75.2
+INFO: (che init):    CHE_VERSION=5.20.0
+INFO: (che init):    CHE_CONFIG=/c/Users/estival/Github/maven
+INFO: (che init):    CHE_INSTANCE=/c/Users/estival/Github/maven/instance
+INFO: (che config):  Generating che configuration...
+docker_run                   --env-file="/data/che.env"                   --env-file=/version/5.20.0/images                   -v "/c/Users/estival/Github/maven/instance":/opt/che:rw                                      -e "CHE_ENV_FILE=c:\\Users\\estival\\Github\\maven\\instance\\config\\che.env"                   -e "CHE_CONTAINER_ROOT=/data"                   -e "CHE_CONTAINER_NAME=che"                   -e "CHE_ENVIRONMENT=production"                   -e "CHE_CONFIG=/c/Users/estival/Github/maven/instance"                   -e "CHE_USER=root"                   -e "CHE_INSTANCE=/c/Users/estival/Github/maven/instance"                   -e "CHE_REPO=off"                   --entrypoint=/usr/bin/puppet                       eclipse/che-init:5.20.0                           apply --modulepath                                 /etc/puppet/modules/:/etc/puppet/addon/                                 /etc/puppet/manifests/ --show_diff >> "/data/cli.log"
+[mNotice: Compiled catalog for 2f4cd959923f.localdomain in environment production in 0.22 seconds[0m
+[mNotice: /Stage[main]/Base/File[/opt/che/data]/ensure: created[0m
+[mNotice: /Stage[main]/Base/File[/opt/che/config]/ensure: created[0m
+[mNotice: /Stage[main]/Base/File[/opt/che/logs]/ensure: created[0m
+[mNotice: /Stage[main]/Base/File[/opt/che/templates]/ensure: created[0m
+[mNotice: /Stage[main]/Base/File[/opt/che/logs/keycloak]/ensure: created[0m
+[mNotice: /Stage[main]/Base/File[/opt/che/data/keycloak]/ensure: created[0m
+[mNotice: /Stage[main]/Che/File[/opt/che/config/che]/ensure: created[0m
+[mNotice: /Stage[main]/Che/File[/opt/che/config/che/che.env]/ensure: defined content as '{md5}d4bda78973d35fc2d4f27c7a0cbaeafb'[0m
+[mNotice: /Stage[main]/Che/File[/opt/che/config/che/jmxremote.access]/ensure: defined content as '{md5}a951b5b6624cad3b0ec555c40d624a9c'[0m
+[mNotice: /Stage[main]/Che/File[/opt/che/config/che/jmxremote.password]/ensure: defined content as '{md5}8ac067aadd17f733721ad81ed55b8f91'[0m
+[mNotice: /Stage[main]/Traefik/File[/opt/che/config/traefik]/ensure: created[0m
+[mNotice: /Stage[main]/Traefik/File[/opt/che/config/traefik/traefik.toml]/ensure: defined content as '{md5}a8e20610ffce652858f7a1c31109878d'[0m
+[mNotice: /Stage[main]/Postgres/File[/opt/che/data/postgres]/ensure: created[0m
+[mNotice: /Stage[main]/Postgres/File[/opt/che/config/postgres]/ensure: created[0m
+[mNotice: /Stage[main]/Postgres/File[/opt/che/config/postgres/init-che-user.sh]/ensure: defined content as '{md5}dfcaaf8daf6d7f3a36f3dda06cc5d97e'[0m
+[mNotice: /Stage[main]/Postgres/File[/opt/che/config/postgres/init-che-user-and-run.sh]/ensure: defined content as '{md5}78e523b24302b6c319c8193070662a75'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak]/ensure: created[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che-realm.json]/ensure: defined content as '{md5}b7a2910466f10a864e49eebf9fb67d63'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che-users-0.json]/ensure: defined content as '{md5}67b16262fe16ea9506a6437bc5e72108'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/master-realm.json]/ensure: defined content as '{md5}58bbe0faeefc2bd59dbbe4c9054366b3'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/master-users-0.json]/ensure: defined content as '{md5}5b63170216fdc03f22b90ef003a1d7a3'[0m
+[mNotice: /Stage[main]/Keycloak/File[keycloak theme custom login page]/ensure: created[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/account]/ensure: created[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/account/messages]/ensure: created[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/account/messages/messages_en.properties]/ensure: defined content as '{md5}8fb0f28b9bfd9172be58966a3526e8af'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/account/resources]/ensure: created[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/account/resources/css]/ensure: created[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/account/resources/css/che-account.css]/ensure: defined content as '{md5}85d8dc3bfee9002d18bcbbfe2cf2ce82'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/account/template.ftl]/ensure: defined content as '{md5}51d659874133bb5d77af75a1dcab5905'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/account/theme.properties]/ensure: defined content as '{md5}da0c4e518e0be32d091fd4a41c86a27b'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/email]/ensure: created[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/email/html]/ensure: created[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/email/html/email-verification.ftl]/ensure: defined content as '{md5}8b96b60d6f1a65d50768d85d26b5c633'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/email/html/event-login_error.ftl]/ensure: defined content as '{md5}38d878fc337712e26282d790c58be503'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/email/html/event-remove_totp.ftl]/ensure: defined content as '{md5}05e4a698f6b194e0564653d311a73b25'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/email/html/event-update_password.ftl]/ensure: defined content as '{md5}6ab4f48ce545fc0c1e747653796fc2e6'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/email/html/event-update_totp.ftl]/ensure: defined content as '{md5}2bba78e88c708f97288e647cb499ea07'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/email/html/executeActions.ftl]/ensure: defined content as '{md5}fd419d2d01e4e8397acf784e61a37d9e'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/email/html/footer.ftl]/ensure: defined content as '{md5}f9f128a97ea98e8cc95db63f2b4c1357'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/email/html/header.ftl]/ensure: defined content as '{md5}6f5ea9ef3a19bc2185b86ed9b4b8fe44'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/email/html/identity-provider-link.ftl]/ensure: defined content as '{md5}fe3f7e97e6d03771b605ef7a4e9f9bdf'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/email/html/password-reset.ftl]/ensure: defined content as '{md5}453725c366ca63f283b3ef066c7f2f01'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/email/messages]/ensure: created[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/email/messages/messages_en.properties]/ensure: defined content as '{md5}6482ad9bab892669acbe7b89374c0899'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/email/text]/ensure: created[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/email/text/email-verification.ftl]/ensure: defined content as '{md5}3dc38ac3ac019761c7edd7f9283e5257'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/email/text/event-login_error.ftl]/ensure: defined content as '{md5}e60f7cb8dde60d807ec5b7eb524eb627'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/email/text/event-remove_totp.ftl]/ensure: defined content as '{md5}9f4018d1af756a53d14cc3e7177de1af'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/email/text/event-update_password.ftl]/ensure: defined content as '{md5}52aab3d501c0664b4c21e0db1577f07d'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/email/text/event-update_totp.ftl]/ensure: defined content as '{md5}7f80e3493f0236a2e0587aa73f9ab954'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/email/text/executeActions.ftl]/ensure: defined content as '{md5}d7a2a70391640ebc6ac9058b214b60d1'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/email/text/footer.ftl]/ensure: defined content as '{md5}d0a39e2ef02e0e991b216f793f803e57'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/email/text/header.ftl]/ensure: defined content as '{md5}c626c13f6f3a8ba8e0ea189bad632f35'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/email/text/identity-provider-link.ftl]/ensure: defined content as '{md5}e5436df2133e3547660c18045a919619'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/email/text/password-reset.ftl]/ensure: defined content as '{md5}4dde02d7af258c2356f832ce71e4667f'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/email/theme.properties]/ensure: defined content as '{md5}b1f3dda0ebb8e3bbdab2553d2f764352'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/login]/ensure: created[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/login/login-reset-password.ftl]/ensure: defined content as '{md5}f15a1189f7ccb49209d2b9ddb14a4354'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/login/login-update-password.ftl]/ensure: defined content as '{md5}db7241e38d9426949a6ed2520e9146f2'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/login/login.ftl]/ensure: defined content as '{md5}84c3f31cc5c4451fa664edcf0cf99ac3'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/login/logo.ftl]/ensure: defined content as '{md5}1289727a8c4b03b7e5a0bea61948ad29'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/login/messages]/ensure: created[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/login/messages/messages_en.properties]/ensure: defined content as '{md5}535849ad8ecd253ce355b3970388e31b'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/login/register.ftl]/ensure: defined content as '{md5}d47cbd8aecd9b9738c954c0d90bd06a2'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/login/resources]/ensure: created[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/login/resources/css]/ensure: created[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/login/resources/css/che-login.css]/ensure: defined content as '{md5}3a10c591c17d3bdb16f500aea87be79c'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/login/resources/img]/ensure: created[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/login/resources/img/che-logo.svg]/ensure: defined content as '{md5}f8bdacafff39cca9a4ab316bffdf504f'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/login/resources/img/favicon.ico]/ensure: defined content as '{md5}0b0b8e34fd6db1ec028ea51d2fdff486'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/login/resources/img/logo-github-hover@3x.png]/ensure: defined content as '{md5}2527d1d62c42bd7492837c9b5cf98697'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/login/resources/img/logo-github@3x.png]/ensure: defined content as '{md5}d8441f9fe373c6022776087cf7626098'[0m
+[mNotice: /Stage[main]/Keycloak/File[/opt/che/config/keycloak/che/login/theme.properties]/ensure: defined content as '{md5}cb337af7510211e7ebedde97584096ba'[0m
+[mNotice: /Stage[main]/Openshift/File[/opt/che/config/openshift]/ensure: created[0m
+[mNotice: /Stage[main]/Openshift/File[Openshift scritps and descriptors]/ensure: created[0m
+[mNotice: /Stage[main]/Openshift/File[/opt/che/config/openshift/scripts/deploy_che.sh]/ensure: defined content as '{md5}25217d4309279010bb2729c48af23455'[0m
+[mNotice: /Stage[main]/Openshift/File[/opt/che/config/openshift/scripts/multi-user]/ensure: created[0m
+[mNotice: /Stage[main]/Openshift/File[/opt/che/config/openshift/scripts/multi-user/che-init-image-stream.yaml]/ensure: defined content as '{md5}f7e090a4b8d144598ba449a743cd8999'[0m
+[mNotice: /Stage[main]/Openshift/File[/opt/che/config/openshift/scripts/multi-user/configure_and_start_keycloak.sh]/ensure: defined content as '{md5}e5ea687f4bc5da24bd19e9f443b52f8f'[0m
+[mNotice: /Stage[main]/Openshift/File[/opt/che/config/openshift/scripts/multi-user/deploy_postgres_and_keycloak.sh]/ensure: defined content as '{md5}691a500f3ee796cd1c023af5cbbbfc83'[0m
+[mNotice: /Stage[main]/Openshift/File[/opt/che/config/openshift/scripts/multi-user/deploy_postgres_only.sh]/ensure: defined content as '{md5}316a34c65fd9b9a69f68e8cf3600afb3'[0m
+[mNotice: /Stage[main]/Openshift/File[/opt/che/config/openshift/scripts/multi-user/keycloak]/ensure: created[0m
+[mNotice: /Stage[main]/Openshift/File[/opt/che/config/openshift/scripts/multi-user/keycloak/build-config.yaml]/ensure: defined content as '{md5}8dbd31e1ebb1ef7f5e039faeda575d2e'[0m
+[mNotice: /Stage[main]/Openshift/File[/opt/che/config/openshift/scripts/multi-user/keycloak/deployment-config.yaml]/ensure: defined content as '{md5}f83a43480de395b0b5f089d08b38a380'[0m
+[mNotice: /Stage[main]/Openshift/File[/opt/che/config/openshift/scripts/multi-user/keycloak/image-stream.yaml]/ensure: defined content as '{md5}264c1010df808c8996bbdd766195dda2'[0m
+[mNotice: /Stage[main]/Openshift/File[/opt/che/config/openshift/scripts/multi-user/keycloak/keycloak-data-claim.yaml]/ensure: defined content as '{md5}54e9a93049678204d2200817bcbd8b43'[0m
+[mNotice: /Stage[main]/Openshift/File[/opt/che/config/openshift/scripts/multi-user/keycloak/keycloak-log-claim.yaml]/ensure: defined content as '{md5}b9b3d60d6939f3804acf6321563d12e7'[0m
+[mNotice: /Stage[main]/Openshift/File[/opt/che/config/openshift/scripts/multi-user/keycloak/route.yaml]/ensure: defined content as '{md5}4c4211cc63d5e4f84df31cdbceabc843'[0m
+[mNotice: /Stage[main]/Openshift/File[/opt/che/config/openshift/scripts/multi-user/keycloak/service.yaml]/ensure: defined content as '{md5}d4ee9df48b67445668c05272ddea6d9d'[0m
+[mNotice: /Stage[main]/Openshift/File[/opt/che/config/openshift/scripts/multi-user/postgres]/ensure: created[0m
+[mNotice: /Stage[main]/Openshift/File[/opt/che/config/openshift/scripts/multi-user/postgres/build-config.yaml]/ensure: defined content as '{md5}ac33389b5e6ca26e7c67a382884cd552'[0m
+[mNotice: /Stage[main]/Openshift/File[/opt/che/config/openshift/scripts/multi-user/postgres/deployment-config.yaml]/ensure: defined content as '{md5}5fa9f887a97985a96373945da0e9c13d'[0m
+[mNotice: /Stage[main]/Openshift/File[/opt/che/config/openshift/scripts/multi-user/postgres/image-stream.yaml]/ensure: defined content as '{md5}edadda3751ed3e1f0eb3c0988fc644b7'[0m
+[mNotice: /Stage[main]/Openshift/File[/opt/che/config/openshift/scripts/multi-user/postgres/postgres-data-claim.yaml]/ensure: defined content as '{md5}b62419f7e131dae19d6472a7e283e8b9'[0m
+[mNotice: /Stage[main]/Openshift/File[/opt/che/config/openshift/scripts/multi-user/postgres/service.yaml]/ensure: defined content as '{md5}bebe42fc6c26acb37c5600e68899e388'[0m
+[mNotice: /Stage[main]/Openshift/File[/opt/che/config/openshift/scripts/multi-user/wait_until_postgres_is_available.sh]/ensure: defined content as '{md5}33bd36b889cfbe260f36abfa85b0d960'[0m
+[mNotice: /Stage[main]/Openshift/File[/opt/che/config/openshift/scripts/replace_stacks.sh]/ensure: defined content as '{md5}866e19eebbcf1c40d562763fb5741d4d'[0m
+[mNotice: /Stage[main]/Openshift/File[/opt/che/config/openshift/scripts/wait_until_che_is_available.sh]/ensure: defined content as '{md5}c9f0f87aea728fce25703aea542b3249'[0m
+[mNotice: /Stage[main]/Compose/Compose::Generate_compose_file[docker-compose-container.yml]/File[/opt/che/docker-compose-container.yml]/ensure: defined content as '{md5}965e04df5f257d6f823f73dc93c983c6'[0m
+[mNotice: /Stage[main]/Compose/Compose::Generate_compose_file[docker-compose.yml]/File[/opt/che/docker-compose.yml]/ensure: defined content as '{md5}7c37d8cfea3e1cb70f4f7d7ce1666a33'[0m
+[mNotice: Applied catalog in 4.01 seconds[0m
+INFO: (che config):  Customizing docker-compose for running in a container
+INFO: (che start):  Preflight checks
+         mem (1.5 GiB):           [0;32m[OK][0m
+         disk (100 MB):           [0;32m[OK][0m
+         port 8080 (http):        [0;32m[AVAILABLE][0m
+2482c91363e7e3649a927d22ef7cd55069caee911105f49a119b712c1715ac04
+/usr/bin/curl  "-I localhost:32768/alpine-release -s -o /dev/null --connect-timeout 5 --write-out %{http_code}"
+28
+/usr/bin/curl  "-I 10.0.75.2:32768/alpine-release -s -o /dev/null --connect-timeout 5 --write-out %{http_code}"
+         conn (browser => ws):    [0;32m[OK][0m
+         conn (server => ws):     [0;32m[OK][0m
+fakeagent-8080
+
+INFO: (che start):  Starting containers...
+docker_compose --file="/data/instance/docker-compose-container.yml" -p="che" up -d >> "/data/cli.log" 2>&1
+Recreating che
+docker inspect -f '{{.Id}}' che
+INFO: (che start):  Services booting...
+INFO: (che start):  Server logs at "docker logs -f che"
+DEBUG: Container with id a9d49bd438c0 is matching che service
+DEBUG: Running state of container a9d49bd438c0 is true
+/usr/bin/curl  "-I -k 10.0.75.2:8080/api/ -s -o /dev/null --write-out %{http_code}"
+200
+DEBUG: Container with id a9d49bd438c0 is matching che service
+DEBUG: Running state of container a9d49bd438c0 is true
+docker inspect -f '{{.Id}}' che
+/usr/bin/curl  "-I -k 10.0.75.2:8080/api/ -s -o /dev/null --write-out %{http_code}"
+200
+docker inspect -f '{{.Id}}' che
+/usr/bin/curl  "-I -k 10.0.75.2:8080/api/ -s -o /dev/null --write-out %{http_code}"
+200
+INFO: (che start):  Booted and reachable
+INFO: (che start):  Ver: 5.20.0
+INFO: (che start):  Use: http://localhost:8080
+INFO: (che start):  API: http://localhost:8080/swagger

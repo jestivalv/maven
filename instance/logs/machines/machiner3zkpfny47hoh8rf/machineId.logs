@@ -1,0 +1,249 @@
+[DOCKER] latest: Pulling from eclipse/mysql 
+[DOCKER] Digest: sha256:68a58bd476819ae21c053d70ba6a444e6802caf7e0e7808f1235e772ec78881e 
+[DOCKER] Status: Image is up to date for eclipse/mysql:latest 
+[STDOUT] 2017/11/12 18:00:01 Exec-agent configuration
+[STDOUT] 2017/11/12 18:00:01   Server
+[STDOUT] 2017/11/12 18:00:01     - Address: :4412
+[STDOUT] 2017/11/12 18:00:01     - Base path: ''
+[STDOUT] 2017/11/12 18:00:01   Process executor
+[STDOUT] 2017/11/12 18:00:01     - Logs dir: /root/che/exec-agent/logs
+[STDOUT] 2017/11/12 18:00:01 
+[STDOUT] 2017/11/12 18:00:01 ⇩ Registered HTTPRoutes:
+[STDOUT] 
+[STDOUT] 2017/11/12 18:00:01 Process Routes:
+[STDOUT] 2017/11/12 18:00:01 ✓ Start Process ........................... POST   /process
+[STDOUT] 2017/11/12 18:00:01 ✓ Get Process ............................. GET    /process/:pid
+[STDOUT] 2017/11/12 18:00:01 ✓ Kill Process ............................ DELETE /process/:pid
+[STDOUT] 2017/11/12 18:00:01 ✓ Get Process Logs ........................ GET    /process/:pid/logs
+[STDOUT] 2017/11/12 18:00:01 ✓ Get Processes ........................... GET    /process
+[STDOUT] 2017/11/12 18:00:01 
+[STDOUT] 2017/11/12 18:00:01 Exec-Agent WebSocket routes:
+[STDOUT] 2017/11/12 18:00:01 ✓ Connect to Exec-Agent(websocket) ........ GET    /connect
+[STDOUT] 2017/11/12 18:00:01 
+[STDOUT] 2017/11/12 18:00:01 ⇩ Registered RPCRoutes:
+[STDOUT] 
+[STDOUT] 2017/11/12 18:00:01 Process Routes:
+[STDOUT] 2017/11/12 18:00:01 ✓ process.start
+[STDOUT] 2017/11/12 18:00:01 ✓ process.kill
+[STDOUT] 2017/11/12 18:00:01 ✓ process.subscribe
+[STDOUT] 2017/11/12 18:00:01 ✓ process.unsubscribe
+[STDOUT] 2017/11/12 18:00:01 ✓ process.updateSubscriber
+[STDOUT] 2017/11/12 18:00:01 ✓ process.getLogs
+[STDOUT] 2017/11/12 18:00:01 ✓ process.getProcess
+[STDOUT] 2017/11/12 18:00:01 ✓ process.getProcesses
+[STDOUT] Initializing database
+[STDERR] 2017-11-12T18:00:01.859689Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+[STDERR] 2017-11-12T18:00:02.352132Z 0 [Warning] InnoDB: New log files created, LSN=45790
+[STDERR] 2017-11-12T18:00:02.506637Z 0 [Warning] InnoDB: Creating foreign key constraint system tables.
+[STDERR] 2017-11-12T18:00:02.587691Z 0 [Warning] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: 4e6ce8dc-c7d3-11e7-8ffa-0242ac110002.
+[STDERR] 2017-11-12T18:00:02.602024Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+[STDERR] 2017-11-12T18:00:02.605358Z 1 [Warning] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+[STDOUT] 2017/11/12 18:00:03 Terminal-agent configuration
+[STDOUT] 2017/11/12 18:00:03   Server
+[STDOUT] 2017/11/12 18:00:03     - Address: :4411
+[STDOUT] 2017/11/12 18:00:03     - Base path: ''
+[STDOUT] 2017/11/12 18:00:03   Terminal
+[STDOUT] 2017/11/12 18:00:03     - Slave command: ''
+[STDOUT] 2017/11/12 18:00:03     - Activity tracking enabled: true
+[STDOUT] 2017/11/12 18:00:03   Workspace master server
+[STDOUT] 2017/11/12 18:00:03     - API endpoint: http://che-host:8080/wsmaster/api
+[STDOUT] 2017/11/12 18:00:03 
+[STDOUT] 2017/11/12 18:00:03 ⇩ Registered HTTPRoutes:
+[STDOUT] 
+[STDOUT] 2017/11/12 18:00:03 Terminal routes:
+[STDOUT] 2017/11/12 18:00:03 ✓ Connect to pty(websocket) ............... GET    /pty
+[STDOUT] 2017/11/12 18:00:03 
+[STDERR] 2017-11-12T18:00:05.227925Z 1 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:05.228023Z 1 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:05.228044Z 1 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:05.228069Z 1 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:05.228084Z 1 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:05.228119Z 1 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:05.228180Z 1 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:05.228197Z 1 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+[STDOUT] Database initialized
+[STDOUT] Initializing certificates
+[STDERR] Generating a 2048 bit RSA private key
+[STDERR] .................................................................................+++
+[STDERR] .......................................................................................................................................................................................................................+++
+[STDERR] unable to write 'random state'
+[STDERR] writing new private key to 'ca-key.pem'
+[STDERR] -----
+[STDERR] Generating a 2048 bit RSA private key
+[STDERR] .................+++
+[STDERR] ...................................................................+++
+[STDERR] unable to write 'random state'
+[STDERR] writing new private key to 'server-key.pem'
+[STDERR] -----
+[STDERR] Generating a 2048 bit RSA private key
+[STDERR] ..................................................+++
+[STDERR] .........+++
+[STDERR] unable to write 'random state'
+[STDERR] writing new private key to 'client-key.pem'
+[STDERR] -----
+[STDOUT] Certificates initialized
+[STDOUT] MySQL init process in progress...
+[STDERR] 2017-11-12T18:00:09.523029Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+[STDERR] 2017-11-12T18:00:09.523862Z 0 [Note] mysqld (mysqld 5.7.19) starting as process 194 ...
+[STDERR] 2017-11-12T18:00:09.527484Z 0 [Note] InnoDB: PUNCH HOLE support available
+[STDERR] 2017-11-12T18:00:09.527706Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+[STDERR] 2017-11-12T18:00:09.527733Z 0 [Note] InnoDB: Uses event mutexes
+[STDERR] 2017-11-12T18:00:09.527970Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+[STDERR] 2017-11-12T18:00:09.527989Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+[STDERR] 2017-11-12T18:00:09.528004Z 0 [Note] InnoDB: Using Linux native AIO
+[STDERR] 2017-11-12T18:00:09.528760Z 0 [Note] InnoDB: Number of pools: 1
+[STDERR] 2017-11-12T18:00:09.529021Z 0 [Note] InnoDB: Using CPU crc32 instructions
+[STDERR] 2017-11-12T18:00:09.530549Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+[STDERR] 2017-11-12T18:00:09.537368Z 0 [Note] InnoDB: Completed initialization of buffer pool
+[STDERR] 2017-11-12T18:00:09.538678Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+[STDERR] 2017-11-12T18:00:09.550302Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+[STDERR] 2017-11-12T18:00:09.580612Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+[STDERR] 2017-11-12T18:00:09.584984Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+[STDERR] 2017-11-12T18:00:09.661939Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+[STDERR] 2017-11-12T18:00:09.662880Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+[STDERR] 2017-11-12T18:00:09.662913Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+[STDERR] 2017-11-12T18:00:09.664514Z 0 [Note] InnoDB: Waiting for purge to start
+[STDERR] 2017-11-12T18:00:09.714724Z 0 [Note] InnoDB: 5.7.19 started; log sequence number 2539315
+[STDERR] 2017-11-12T18:00:09.715256Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+[STDERR] 2017-11-12T18:00:09.715708Z 0 [Note] Plugin 'FEDERATED' is disabled.
+[STDERR] 2017-11-12T18:00:09.717285Z 0 [Note] InnoDB: Buffer pool(s) load completed at 171112 18:00:09
+[STDERR] 2017-11-12T18:00:09.730694Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+[STDERR] 2017-11-12T18:00:09.731285Z 0 [Warning] CA certificate ca.pem is self signed.
+[STDERR] 2017-11-12T18:00:09.753903Z 0 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:09.753934Z 0 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:09.753941Z 0 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:09.753953Z 0 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:09.753957Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:09.753963Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:09.756096Z 0 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:09.756130Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:09.767654Z 0 [Note] Event Scheduler: Loaded 0 events
+[STDERR] 2017-11-12T18:00:09.767951Z 0 [Note] mysqld: ready for connections.
+[STDERR] Version: '5.7.19'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server (GPL)
+[STDERR] 2017-11-12T18:00:09.768028Z 0 [Note] Executing 'SELECT * FROM INFORMATION_SCHEMA.TABLES;' to get a list of tables using the deprecated partition engine. You may use the startup option '--disable-partition-engine-check' to skip this check. 
+[STDERR] 2017-11-12T18:00:09.768049Z 0 [Note] Beginning of list of non-natively partitioned tables
+[STDERR] 2017-11-12T18:00:09.782470Z 0 [Note] End of list of non-natively partitioned tables
+[STDERR] Warning: Unable to load '/usr/share/zoneinfo/iso3166.tab' as time zone. Skipping it.
+[STDERR] Warning: Unable to load '/usr/share/zoneinfo/leap-seconds.list' as time zone. Skipping it.
+[STDERR] Warning: Unable to load '/usr/share/zoneinfo/zone.tab' as time zone. Skipping it.
+[STDERR] 2017-11-12T18:00:13.933948Z 5 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:13.934046Z 5 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:13.934095Z 5 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:13.934121Z 5 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:13.934349Z 5 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:13.934560Z 5 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:13.935039Z 5 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+[STDERR] mysql: [Warning] Using a password on the command line interface can be insecure.
+[STDERR] mysql: [Warning] Using a password on the command line interface can be insecure.
+[STDERR] mysql: [Warning] Using a password on the command line interface can be insecure.
+[STDERR] mysql: [Warning] Using a password on the command line interface can be insecure.
+[STDERR] 2017-11-12T18:00:14.026443Z 9 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:14.027021Z 9 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:14.027151Z 9 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:14.027198Z 9 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:14.028204Z 9 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:14.029630Z 9 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:14.029774Z 9 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+[STDOUT] 
+[STDERR] 2017-11-12T18:00:14.038937Z 0 [Note] Giving 0 client threads a chance to die gracefully
+[STDERR] 2017-11-12T18:00:14.038999Z 0 [Note] Shutting down slave threads
+[STDERR] 2017-11-12T18:00:14.039009Z 0 [Note] Forcefully disconnecting 0 remaining clients
+[STDERR] 2017-11-12T18:00:14.039030Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+[STDERR] 2017-11-12T18:00:14.039751Z 0 [Note] Binlog end
+[STDERR] 2017-11-12T18:00:14.041064Z 0 [Note] Shutting down plugin 'ngram'
+[STDERR] 2017-11-12T18:00:14.041144Z 0 [Note] Shutting down plugin 'ARCHIVE'
+[STDERR] 2017-11-12T18:00:14.041169Z 0 [Note] Shutting down plugin 'partition'
+[STDERR] 2017-11-12T18:00:14.041192Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+[STDERR] 2017-11-12T18:00:14.041212Z 0 [Note] Shutting down plugin 'MyISAM'
+[STDERR] 2017-11-12T18:00:14.041238Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+[STDERR] 2017-11-12T18:00:14.041258Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+[STDERR] 2017-11-12T18:00:14.041279Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+[STDERR] 2017-11-12T18:00:14.041297Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+[STDERR] 2017-11-12T18:00:14.041315Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+[STDERR] 2017-11-12T18:00:14.041333Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+[STDERR] 2017-11-12T18:00:14.041351Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+[STDERR] 2017-11-12T18:00:14.041368Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+[STDERR] 2017-11-12T18:00:14.041405Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+[STDERR] 2017-11-12T18:00:14.041425Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+[STDERR] 2017-11-12T18:00:14.041450Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+[STDERR] 2017-11-12T18:00:14.041478Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+[STDERR] 2017-11-12T18:00:14.041506Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+[STDERR] 2017-11-12T18:00:14.041536Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+[STDERR] 2017-11-12T18:00:14.041689Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+[STDERR] 2017-11-12T18:00:14.041712Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+[STDERR] 2017-11-12T18:00:14.041730Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+[STDERR] 2017-11-12T18:00:14.041748Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+[STDERR] 2017-11-12T18:00:14.041766Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+[STDERR] 2017-11-12T18:00:14.041783Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+[STDERR] 2017-11-12T18:00:14.041801Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+[STDERR] 2017-11-12T18:00:14.041832Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+[STDERR] 2017-11-12T18:00:14.041851Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+[STDERR] 2017-11-12T18:00:14.041869Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+[STDERR] 2017-11-12T18:00:14.041887Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+[STDERR] 2017-11-12T18:00:14.041905Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+[STDERR] 2017-11-12T18:00:14.041923Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+[STDERR] 2017-11-12T18:00:14.041941Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+[STDERR] 2017-11-12T18:00:14.041958Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+[STDERR] 2017-11-12T18:00:14.041976Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+[STDERR] 2017-11-12T18:00:14.041994Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+[STDERR] 2017-11-12T18:00:14.042012Z 0 [Note] Shutting down plugin 'InnoDB'
+[STDERR] 2017-11-12T18:00:14.043378Z 0 [Note] InnoDB: FTS optimize thread exiting.
+[STDERR] 2017-11-12T18:00:14.043943Z 0 [Note] InnoDB: Starting shutdown...
+[STDERR] 2017-11-12T18:00:14.144279Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+[STDERR] 2017-11-12T18:00:14.144784Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 171112 18:00:14
+[STDERR] 2017-11-12T18:00:15.779268Z 0 [Note] InnoDB: Shutdown completed; log sequence number 12143601
+[STDERR] 2017-11-12T18:00:15.783732Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+[STDERR] 2017-11-12T18:00:15.783806Z 0 [Note] Shutting down plugin 'CSV'
+[STDERR] 2017-11-12T18:00:15.783819Z 0 [Note] Shutting down plugin 'MEMORY'
+[STDERR] 2017-11-12T18:00:15.783829Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+[STDERR] 2017-11-12T18:00:15.783850Z 0 [Note] Shutting down plugin 'sha256_password'
+[STDERR] 2017-11-12T18:00:15.783862Z 0 [Note] Shutting down plugin 'mysql_native_password'
+[STDERR] 2017-11-12T18:00:15.784167Z 0 [Note] Shutting down plugin 'binlog'
+[STDERR] 2017-11-12T18:00:15.786917Z 0 [Note] mysqld: Shutdown complete
+[STDERR] 
+[STDOUT] 
+[STDOUT] MySQL init process done. Ready for start up.
+[STDOUT] 
+[STDERR] 2017-11-12T18:00:16.144895Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+[STDERR] 2017-11-12T18:00:16.145853Z 0 [Note] mysqld (mysqld 5.7.19) starting as process 1 ...
+[STDERR] 2017-11-12T18:00:16.155163Z 0 [Note] InnoDB: PUNCH HOLE support available
+[STDERR] 2017-11-12T18:00:16.155212Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+[STDERR] 2017-11-12T18:00:16.155224Z 0 [Note] InnoDB: Uses event mutexes
+[STDERR] 2017-11-12T18:00:16.155234Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+[STDERR] 2017-11-12T18:00:16.155243Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+[STDERR] 2017-11-12T18:00:16.155251Z 0 [Note] InnoDB: Using Linux native AIO
+[STDERR] 2017-11-12T18:00:16.155428Z 0 [Note] InnoDB: Number of pools: 1
+[STDERR] 2017-11-12T18:00:16.156901Z 0 [Note] InnoDB: Using CPU crc32 instructions
+[STDERR] 2017-11-12T18:00:16.159145Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+[STDERR] 2017-11-12T18:00:16.171010Z 0 [Note] InnoDB: Completed initialization of buffer pool
+[STDERR] 2017-11-12T18:00:16.177756Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+[STDERR] 2017-11-12T18:00:16.189044Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+[STDERR] 2017-11-12T18:00:16.201668Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+[STDERR] 2017-11-12T18:00:16.201779Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+[STDERR] 2017-11-12T18:00:16.258880Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+[STDERR] 2017-11-12T18:00:16.263045Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+[STDERR] 2017-11-12T18:00:16.263107Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+[STDERR] 2017-11-12T18:00:16.263594Z 0 [Note] InnoDB: Waiting for purge to start
+[STDERR] 2017-11-12T18:00:16.314022Z 0 [Note] InnoDB: 5.7.19 started; log sequence number 12143601
+[STDERR] 2017-11-12T18:00:16.314762Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+[STDERR] 2017-11-12T18:00:16.315460Z 0 [Note] Plugin 'FEDERATED' is disabled.
+[STDERR] 2017-11-12T18:00:16.328551Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+[STDERR] 2017-11-12T18:00:16.328817Z 0 [Warning] CA certificate ca.pem is self signed.
+[STDERR] 2017-11-12T18:00:16.330513Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+[STDERR] 2017-11-12T18:00:16.330572Z 0 [Note] IPv6 is available.
+[STDERR] 2017-11-12T18:00:16.330590Z 0 [Note]   - '::' resolves to '::';
+[STDERR] 2017-11-12T18:00:16.330613Z 0 [Note] Server socket created on IP: '::'.
+[STDERR] 2017-11-12T18:00:16.343148Z 0 [Note] InnoDB: Buffer pool(s) load completed at 171112 18:00:16
+[STDERR] 2017-11-12T18:00:16.344932Z 0 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:16.344985Z 0 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:16.345010Z 0 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:16.345020Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:16.345059Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:16.347093Z 0 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:16.349733Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+[STDERR] 2017-11-12T18:00:16.357126Z 0 [Note] Event Scheduler: Loaded 0 events
+[STDERR] 2017-11-12T18:00:16.357603Z 0 [Note] mysqld: ready for connections.
+[STDERR] Version: '5.7.19'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+[STDERR] 2017-11-12T18:00:16.357634Z 0 [Note] Executing 'SELECT * FROM INFORMATION_SCHEMA.TABLES;' to get a list of tables using the deprecated partition engine. You may use the startup option '--disable-partition-engine-check' to skip this check. 
+[STDERR] 2017-11-12T18:00:16.357642Z 0 [Note] Beginning of list of non-natively partitioned tables
+[STDERR] 2017-11-12T18:00:16.376195Z 0 [Note] End of list of non-natively partitioned tables
