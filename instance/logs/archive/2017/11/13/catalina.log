@@ -1,0 +1,32 @@
+2017-11-13 00:25:55,437[ted-scheduler-0]  [INFO ] [ockerAbandonedResourcesCleaner 126]  - List containers registered in the api: []
+2017-11-13 01:25:55,469[ted-scheduler-4]  [INFO ] [ockerAbandonedResourcesCleaner 126]  - List containers registered in the api: []
+2017-11-13 02:25:55,526[ted-scheduler-0]  [INFO ] [ockerAbandonedResourcesCleaner 126]  - List containers registered in the api: []
+2017-11-13 03:25:55,571[ted-scheduler-9]  [INFO ] [ockerAbandonedResourcesCleaner 126]  - List containers registered in the api: []
+2017-11-13 04:25:55,550[ted-scheduler-0]  [INFO ] [ockerAbandonedResourcesCleaner 126]  - List containers registered in the api: []
+2017-11-13 05:25:55,570[ted-scheduler-6]  [INFO ] [ockerAbandonedResourcesCleaner 126]  - List containers registered in the api: []
+2017-11-13 06:25:55,589[ted-scheduler-0]  [INFO ] [ockerAbandonedResourcesCleaner 126]  - List containers registered in the api: []
+2017-11-13 06:51:47,695[nio-8080-exec-5]  [INFO ] [o.e.c.a.f.s.jpa.JpaFactoryDao 111]   - FactoryDao#getByAttributes #maxItems: 15 #skipCount: 0, #attributes: [{first=creator.userId, second=che}]
+2017-11-13 06:52:33,209[aceSharedPool-2]  [INFO ] [m.BaseServerEvaluationStrategy 141]  - cheWorkspacesRoutingSuffixProvider = null
+2017-11-13 06:52:33,212[aceSharedPool-2]  [INFO ] [m.BaseServerEvaluationStrategy 141]  - cheWorkspacesRoutingSuffixProvider = null
+2017-11-13 06:52:33,213[aceSharedPool-2]  [INFO ] [m.BaseServerEvaluationStrategy 141]  - cheWorkspacesRoutingSuffixProvider = org.eclipse.che.plugin.docker.client.WorkspacesRoutingSuffixProvider@64938704
+2017-11-13 06:52:33,214[aceSharedPool-2]  [INFO ] [m.BaseServerEvaluationStrategy 141]  - cheWorkspacesRoutingSuffixProvider = org.eclipse.che.plugin.docker.client.WorkspacesRoutingSuffixProvider@64938704
+2017-11-13 06:52:33,222[aceSharedPool-2]  [INFO ] [m.BaseServerEvaluationStrategy 141]  - cheWorkspacesRoutingSuffixProvider = org.eclipse.che.plugin.docker.client.WorkspacesRoutingSuffixProvider@64938704
+2017-11-13 06:52:33,292[aceSharedPool-2]  [INFO ] [o.e.c.a.w.s.WorkspaceRuntimes 676]   - Launching 'org.eclipse.che.exec' agent at workspace workspacevhc4anpw9h0yssu8
+2017-11-13 06:52:35,526[aceSharedPool-2]  [INFO ] [o.e.c.a.w.s.WorkspaceRuntimes 676]   - Launching 'org.eclipse.che.terminal' agent at workspace workspacevhc4anpw9h0yssu8
+2017-11-13 06:52:39,091[aceSharedPool-2]  [INFO ] [m.BaseServerEvaluationStrategy 141]  - cheWorkspacesRoutingSuffixProvider = null
+2017-11-13 06:52:39,092[aceSharedPool-2]  [INFO ] [m.BaseServerEvaluationStrategy 141]  - cheWorkspacesRoutingSuffixProvider = null
+2017-11-13 06:52:39,092[aceSharedPool-2]  [INFO ] [m.BaseServerEvaluationStrategy 141]  - cheWorkspacesRoutingSuffixProvider = org.eclipse.che.plugin.docker.client.WorkspacesRoutingSuffixProvider@64938704
+2017-11-13 06:52:39,092[aceSharedPool-2]  [INFO ] [m.BaseServerEvaluationStrategy 141]  - cheWorkspacesRoutingSuffixProvider = org.eclipse.che.plugin.docker.client.WorkspacesRoutingSuffixProvider@64938704
+2017-11-13 06:52:39,092[aceSharedPool-2]  [INFO ] [m.BaseServerEvaluationStrategy 141]  - cheWorkspacesRoutingSuffixProvider = org.eclipse.che.plugin.docker.client.WorkspacesRoutingSuffixProvider@64938704
+2017-11-13 06:52:39,156[aceSharedPool-2]  [INFO ] [o.e.c.a.w.s.WorkspaceRuntimes 676]   - Launching 'org.eclipse.che.exec' agent at workspace workspacevhc4anpw9h0yssu8
+2017-11-13 06:52:41,341[aceSharedPool-2]  [INFO ] [o.e.c.a.w.s.WorkspaceRuntimes 676]   - Launching 'org.eclipse.che.terminal' agent at workspace workspacevhc4anpw9h0yssu8
+2017-11-13 06:52:43,566[aceSharedPool-2]  [INFO ] [o.e.c.a.w.s.WorkspaceRuntimes 676]   - Launching 'org.eclipse.che.ws-agent' agent at workspace workspacevhc4anpw9h0yssu8
+2017-11-13 06:52:55,651[aceSharedPool-2]  [INFO ] [o.e.c.a.w.s.WorkspaceRuntimes 676]   - Launching 'org.eclipse.che.ssh' agent at workspace workspacevhc4anpw9h0yssu8
+2017-11-13 06:52:55,731[aceSharedPool-2]  [INFO ] [e.c.a.w.s.i.ServerIdleDetector 70]   - Idling che server canceled
+2017-11-13 06:52:55,732[aceSharedPool-2]  [INFO ] [o.e.c.a.w.s.WorkspaceManager 658]    - Workspace 'che/MavenMySQL' with id 'workspacevhc4anpw9h0yssu8' started by user 'che'
+2017-11-13 08:53:38,137[aceSharedPool-3]  [INFO ] [o.e.c.a.w.s.WorkspaceManager 700]    - Workspace 'che/MavenMySQL' with id 'workspacevhc4anpw9h0yssu8' is being stopped by user 'activity-checker'
+2017-11-13 08:53:38,153[aceSharedPool-3]  [INFO ] [o.e.c.a.w.s.WorkspaceRuntimes 855]   - Creating snapshot of workspace 'workspacevhc4anpw9h0yssu8', machines to snapshot: '2'
+2017-11-13 08:53:43,575[aceSharedPool-3]  [INFO ] [o.e.c.a.w.s.WorkspaceRuntimes 882]   - Saving new snapshots metadata, workspace id 'workspacevhc4anpw9h0yssu8'
+2017-11-13 08:53:43,593[aceSharedPool-3]  [INFO ] [o.e.c.a.w.s.WorkspaceRuntimes 887]   - Removing old snapshots binaries, workspace id 'workspacevhc4anpw9h0yssu8', snapshots to remove '2'
+2017-11-13 08:53:48,090[aceSharedPool-3]  [INFO ] [e.c.a.w.s.i.ServerIdleDetector 81]   - Idling che server scheduled [timeout=1800] seconds]
+2017-11-13 08:53:48,104[aceSharedPool-3]  [INFO ] [o.e.c.a.w.s.WorkspaceManager 733]    - Workspace 'che/MavenMySQL' with id 'workspacevhc4anpw9h0yssu8' stopped by user 'activity-checker'

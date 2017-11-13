@@ -95,3 +95,62 @@
 2017-11-12 19:11:48,984[aceSharedPool-1]  [INFO ] [o.e.c.a.w.s.WorkspaceRuntimes 882]   - Saving new snapshots metadata, workspace id 'workspacevhc4anpw9h0yssu8'
 2017-11-12 19:11:52,267[aceSharedPool-1]  [INFO ] [e.c.a.w.s.i.ServerIdleDetector 81]   - Idling che server scheduled [timeout=1800] seconds]
 2017-11-12 19:11:52,268[aceSharedPool-1]  [INFO ] [o.e.c.a.w.s.WorkspaceManager 733]    - Workspace 'che/MavenMySQL' with id 'workspacevhc4anpw9h0yssu8' stopped by user 'activity-checker'
+2017-11-12 20:13:01,721[ool-12-thread-1]  [WARN ] [i.f.kubernetes.client.Config 299]    - Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+2017-11-12 20:13:02,001[ool-12-thread-1]  [ERROR] [o.e.c.a.c.n.EventService 109]        - An error has occurred.
+io.fabric8.kubernetes.client.KubernetesClientException: An error has occurred.
+	at io.fabric8.kubernetes.client.KubernetesClientException.launderThrowable(KubernetesClientException.java:61)
+	at io.fabric8.kubernetes.client.KubernetesClientException.launderThrowable(KubernetesClientException.java:52)
+	at io.fabric8.kubernetes.client.dsl.base.BaseOperation.get(BaseOperation.java:199)
+	at org.eclipse.che.plugin.openshift.client.OpenShiftConnector.idleCheServer(OpenShiftConnector.java:383)
+	at org.eclipse.che.plugin.openshift.client.OpenShiftConnector.access$000(OpenShiftConnector.java:175)
+	at org.eclipse.che.plugin.openshift.client.OpenShiftConnector$1.onEvent(OpenShiftConnector.java:291)
+	at org.eclipse.che.plugin.openshift.client.OpenShiftConnector$1.onEvent(OpenShiftConnector.java:287)
+	at org.eclipse.che.api.core.notification.EventService.publish(EventService.java:107)
+	at org.eclipse.che.api.workspace.server.idle.ServerIdleDetector.run(ServerIdleDetector.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.UnknownHostException: kubernetes.default.svc: Name does not resolve
+	at java.net.Inet4AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at okhttp3.Dns$1.lookup(Dns.java:39)
+	at okhttp3.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:170)
+	at okhttp3.internal.connection.RouteSelector.nextProxy(RouteSelector.java:136)
+	at okhttp3.internal.connection.RouteSelector.next(RouteSelector.java:81)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:171)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:121)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:100)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:120)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at io.fabric8.openshift.client.internal.OpenShiftOAuthInterceptor.intercept(OpenShiftOAuthInterceptor.java:64)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:179)
+	at okhttp3.RealCall.execute(RealCall.java:63)
+	at io.fabric8.kubernetes.client.dsl.base.OperationSupport.handleResponse(OperationSupport.java:237)
+	at io.fabric8.kubernetes.client.dsl.base.OperationSupport.handleResponse(OperationSupport.java:232)
+	at io.fabric8.kubernetes.client.dsl.base.OperationSupport.handleGet(OperationSupport.java:228)
+	at io.fabric8.kubernetes.client.dsl.base.BaseOperation.handleGet(BaseOperation.java:711)
+	at io.fabric8.kubernetes.client.dsl.base.BaseOperation.get(BaseOperation.java:192)
+	... 13 common frames omitted
+2017-11-12 20:25:55,301[ted-scheduler-6]  [INFO ] [ockerAbandonedResourcesCleaner 126]  - List containers registered in the api: []
+2017-11-12 21:25:55,339[ted-scheduler-9]  [INFO ] [ockerAbandonedResourcesCleaner 126]  - List containers registered in the api: []
+2017-11-12 22:25:55,376[ted-scheduler-0]  [INFO ] [ockerAbandonedResourcesCleaner 126]  - List containers registered in the api: []
+2017-11-12 23:25:55,415[ted-scheduler-9]  [INFO ] [ockerAbandonedResourcesCleaner 126]  - List containers registered in the api: []
